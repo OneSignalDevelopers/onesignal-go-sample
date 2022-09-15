@@ -1,4 +1,4 @@
-package onesignalHelpers
+package osHelpers
 
 import (
 	"context"
