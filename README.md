@@ -28,9 +28,8 @@ Thi s project assumes that you already have a OneSignal app created with push no
 3. Step 3
 ```
 
-[☝️ replace with actual steps]
-
-[Add relevant code snippets or additional context if necessary]
+- [ ] ☝️ replace with actual steps
+- [ ] Add relevant code snippets or additional context if necessary
 
 # Support
 
