@@ -22,14 +22,16 @@ This project demonstrates sending push notifications using OneSignal Go client. 
 
 Thi s project assumes that you already have a OneSignal app created with push notifications setup. If you don't yet have a OneSignal app, [create one](https://documentation.onesignal.com/docs/apps-organizations#create-an-app) first, then follow the steps below to integrate the OneSignal SDK into your [Android](https://documentation.onesignal.com/docs/android-sdk-setup) or [iOS](https://documentation.onesignal.com/docs/ios-sdk-setup) app.
 
-```md
-1. Step 1
-2. Step 2
-3. Step 3
+1. Rename _.env.example_ to _.env_ `mv .env.example .env`
+2. Set environment variables
+
+```
+APP_ID can be found in the URL on the app dashboard 'https://app.onesignal.com/apps/<<APP_ID>>'
+USER_AUTH_KEY -> https://app.onesignal.com/profile
+REST_API_KEY -> https://app.onesignal.com/apps/<<APP_ID>>/settings/keys_and_ids
 ```
 
-- [ ] ☝️ replace with actual steps
-- [ ] Add relevant code snippets or additional context if necessary
+3. Run `go run .`
 
 # Support
 
