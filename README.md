@@ -25,11 +25,11 @@ Thi s project assumes that you already have a OneSignal app created with push no
 1. Rename _.env.example_ to _.env_ `mv .env.example .env`
 2. Set environment variables
 
-```
-APP_ID can be found in the URL on the app dashboard 'https://app.onesignal.com/apps/<<APP_ID>>'
-USER_AUTH_KEY -> https://app.onesignal.com/profile
-REST_API_KEY -> https://app.onesignal.com/apps/<<APP_ID>>/settings/keys_and_ids
-```
+| Variable | Where to find
+|:--|:--|
+| APP_ID | URL in app dashboard |
+| USER_AUTH_KEY | `https://app.onesignal.com/profile` |
+| REST_API_KEY | `https://app.onesignal.com/apps/<<APP_ID>>/settings/keys_and_ids` |
 
 3. Run `go run .`
 
