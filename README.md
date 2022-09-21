@@ -24,9 +24,9 @@ This project assumes that you already have a OneSignal app created with push not
 
 Running this example will result in a notification being sent to **all subscribed** users of your OneSignal app. 
 
-1. Rename _.env.example_ to _.env_ `mv .env.example .env`
+1. Rename _.env.example_ to _.env_, `mv .env.example .env`
 2. Set environment variables
-3. Run `go run .`
+3. Run the app, `go run .`
 
 ### Environment variables
 
