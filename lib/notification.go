@@ -10,17 +10,22 @@ import (
 
 var configuration = onesignal.NewConfiguration()
 var apiClient = onesignal.NewAPIClient(configuration)
-var osAuthCtx = context.WithValue(
-	context.Background(),
-	onesignal.AppAuth,
-	os.Getenv("REST_API_KEY"),
-)
 
 func PushNotification() {
-	fmt.Fprintf(os.Stdout, "oAuthCtx: %v\n", osAuthCtx)
+	appId := os.Getenv("APP_ID")
+	restApiKey := os.Getenv("REST_API_KEY")
+	osAuthCtx := context.WithValue(
+		context.Background(),
+		onesignal.AppAuth,
+		restApiKey,
+	)
 
-	notification := *onesignal.NewNotification(os.Getenv("APP_ID"))
+	notification := *onesignal.NewNotification(appId)
 	notification.SetIncludedSegments([]string{"Subscribed Users"})
+	notification.SetIsIos(false)
+	message := "Go Test Notification"
+	stringMap := onesignal.StringMap{En: &message}
+	notification.Contents = *onesignal.NewNullableStringMap(&stringMap)
 
 	resp, r, err := apiClient.DefaultApi.CreateNotification(osAuthCtx).Notification(notification).Execute()
 
@@ -31,4 +36,5 @@ func PushNotification() {
 	}
 
 	fmt.Fprintf(os.Stdout, "Response from `CreateNotification`: %v\n", resp)
+	fmt.Fprintf(os.Stdout, "Notification ID: %v\n", resp.GetId())
 }
