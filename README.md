@@ -49,7 +49,7 @@ Notification ID: fa7b2782-3ef7-4f44-b8f3-bba3721797a5
 
 ## Ask a question about OneSignal
 
-You can ask questions about the OneSignal xxx SDK and related topics in the **onesignal-xxx-sdk** repository.
+You can ask questions about the OneSignal Go API client and related topics in the [onesignal-go-api](https://github.com/onesignal/onesignal-go-api) repository.
 
 🙋‍♂️ [Ask a question](https://github.com/OneSignal/onesignal-go-api/issues/new?assignees=&labels=triage&template=ask-question.yml&title=%5Bquestion%5D%3A+)
 
