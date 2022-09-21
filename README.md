@@ -32,9 +32,9 @@ Running this example will result in a notification being sent to **all subscribe
 
 | Name | Where to find it |
 |:--|:--|
-| APP_ID | URL in app dashboard |
-| USER_AUTH_KEY | `https://app.onesignal.com/profile` |
-| REST_API_KEY | `https://app.onesignal.com/apps/<<APP_ID>>/settings/keys_and_ids` |
+| APP_ID | URL in app dashboard -> `https://app.onesignal.com/apps/<APP_ID>` |
+| USER_AUTH_KEY | [OneSignal profile page](https://app.onesignal.com/profile) |
+| REST_API_KEY | App settings -> `https://app.onesignal.com/apps/<APP_ID>/settings/keys_and_ids` |
 
 
 # Support
