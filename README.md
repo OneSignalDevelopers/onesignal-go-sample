@@ -16,7 +16,8 @@
 
 OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails.
 
-This project demonstrates sending push notifications using the [OneSignal Go API client](https://github.com/onesignal/onesignal-go-api). You can use this project as a boilerplate or reference to start your project.
+This project demonstrates sending push notifications using the [onesignal-go-api Go package
+](https://pkg.go.dev/github.com/OneSignal/onesignal-go-api). You can use this project as a boilerplate or reference to start your project.
 
 ## 🚦 Getting started
 
