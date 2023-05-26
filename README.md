@@ -1,4 +1,4 @@
-![OneSignal](https://github.com/OneSignal/.github/blob/439e36ade56b001643ff3b07eeaf95b20129f3e6/assets/onesignal-banner.png)
+![OneSignal](https://raw.githubusercontent.com/OneSignalDevelopers/.github/main/assets/onesignal-banner.png)
 
 <div align="center">
   <a href="https://documentation.onesignal.com/docs/onboarding-with-onesignal" target="_blank">Quickstart</a>
@@ -29,21 +29,19 @@ This project assumes that you already have a OneSignal app created with push not
 Running this example will result in a notification being sent to **all subscribed** users of your OneSignal app and the following output:
 
 ```shell
-╭─iamwill@kronos ~/code/@onesignalDevelopers/onesignal-go-sample ‹main●› 
+╭─iamwill@kronos ~/code/@onesignalDevelopers/onesignal-go-sample ‹main●›
 ╰─$ go run .
 Response from `CreateNotification`: &{fa7b2782-3ef7-4f44-b8f3-bba3721797a5 5 <nil> <nil> map[]}
 Notification ID: fa7b2782-3ef7-4f44-b8f3-bba3721797a5
 ```
 
-
 ### Environment variables
 
-| Name | Where to find it |
-|:--|:--|
-| APP_ID | URL in app dashboard -> `https://app.onesignal.com/apps/<APP_ID>` |
-| USER_AUTH_KEY | [OneSignal profile page](https://app.onesignal.com/profile) |
-| REST_API_KEY | App settings -> `https://app.onesignal.com/apps/<APP_ID>/settings/keys_and_ids` |
-
+| Name          | Where to find it                                                                |
+| :------------ | :------------------------------------------------------------------------------ |
+| APP_ID        | URL in app dashboard -> `https://app.onesignal.com/apps/<APP_ID>`               |
+| USER_AUTH_KEY | [OneSignal profile page](https://app.onesignal.com/profile)                     |
+| REST_API_KEY  | App settings -> `https://app.onesignal.com/apps/<APP_ID>/settings/keys_and_ids` |
 
 # Support
 
