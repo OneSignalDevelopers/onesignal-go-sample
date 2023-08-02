@@ -3,7 +3,7 @@ module onesignal-developers/sample
 go 1.19
 
 require (
-	github.com/OneSignal/onesignal-go-api v1.0.4
+	github.com/OneSignal/onesignal-go-api/v2 v2.0.1
 	github.com/joho/godotenv v1.4.0
 )
 

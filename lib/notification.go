@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/OneSignal/onesignal-go-api"
+	"github.com/OneSignal/onesignal-go-api/v2"
 )
 
 var configuration = onesignal.NewConfiguration()
