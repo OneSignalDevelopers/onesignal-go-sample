@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	lib.PushNotification()
+	lib.CreatUser()
 }

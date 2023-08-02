@@ -37,3 +37,31 @@ func PushNotification() {
 	fmt.Fprintf(os.Stdout, "Response from `CreateNotification`: %v\n", resp)
 	fmt.Fprintf(os.Stdout, "Notification ID: %v\n", resp.GetId())
 }
+
+// Create a user
+func CreatUser() {
+	u := *onesignal.NewUser()
+	user, _, err := apiClient.DefaultApi.CreateUser(authCtx, appId).User(u).Execute()
+
+	if err != nil {
+		fmt.Fprint(os.Stderr, err)
+		return
+	}
+
+	fmt.Fprintf(os.Stdout, "New user created: %v\n", user)
+}
+
+// View a user
+// Update a user
+// Delete a user
+// View user identity
+// View user identity by subscription
+// Create alias
+// Create alias by subscription
+// Delete alias
+
+// Create subscription
+// Update subscription
+// View subscription I AMs
+// Deletee subscription
+// Transfer subscription
