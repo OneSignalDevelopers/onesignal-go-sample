@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	lib.PushNotification()
+	lib.ViewUser("external_id", "test")
 }
