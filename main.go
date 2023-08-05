@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	lib.CreatUser()
+	lib.ViewUser("external_id", "test")
 }
