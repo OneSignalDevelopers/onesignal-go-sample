@@ -1,5 +1,3 @@
-![OneSignal](https://raw.githubusercontent.com/OneSignalDevelopers/.github/main/assets/onesignal-banner.png)
-
 <div align="center">
   <a href="https://documentation.onesignal.com/docs/onboarding-with-onesignal" target="_blank">Quickstart</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -9,8 +7,10 @@
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://github.com/OneSignalDevelopers" target="_blank">Examples</a>
   <br />
-  <hr />
+ <br />
 </div>
+
+![OneSignal](https://github.com/OneSignalDevelopers/.github/blob/main/assets/onesignal-banner.png?raw=true)
 
 # OneSignal Go Client Sample
 
